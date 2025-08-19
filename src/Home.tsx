@@ -84,7 +84,7 @@ export default function Home(): React.ReactElement {
         <div className="hidden lg:flex relative justify-center items-center w-1/2">
           <img
             src="/myPortofolio/images/Yuki.png"
-            className="w-3/4 p-1/4 z-[2] rounded-full bg-[var(--bg-fiona)]"
+            className="w-3/4 p-1/4 z-[2] rounded-full bg-[var(--bg-yuki)]"
           />
         </div>
       </section>
