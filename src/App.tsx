@@ -173,7 +173,7 @@ export default function App(): React.ReactElement {
         <main className="flex flex-col items-center lg:my-6 lg:rounded-[5px] bg-[var(--main-color)] min-w-[95%] min-h-[92%]">
           <nav className="rounded-[5px] flex lg:justify-center justify-end h-[10%] lg:mt-5 w-[97%] items-center">
             <div ref={linkBox} className="lg:flex items-center justify-center lg:w-auto flex w-[85%] lg:h-auto h-[50%] hidden">
-              <h1 className="hidden lg:flex text-[30px] font-bold mr-60 text-[#9f5062]">Fiona</h1>
+              <h1 className="hidden lg:flex text-[30px] font-bold mr-60 text-[#9f5062]">Yuki Suou</h1>
               <Link
                 to="/myPortofolio/"
                 id="home"

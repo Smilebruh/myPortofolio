@@ -14,7 +14,7 @@ export default function Home(): React.ReactElement {
   useEffect(() => {
     if (hasRan.current) return;
     if (type_text.current)
-      keep_typing(["Hi, you can call me Fiona ", "Glad To Meet You "], 150);
+      keep_typing(["Hi, you can call me Yuki ", "Glad To Meet You "], 150);
 
     document.title = "Portofolio | Home";
     hasRan.current = true;
@@ -25,8 +25,8 @@ export default function Home(): React.ReactElement {
       <section className="flex flex-col items-center rounded-[5px] w-[97%] lg:h-[80%] lg:mt-5 lg:flex-row lg:justify-start mt-15">
         <div className="flex relative justify-center items-center w-1/2 lg:hidden">
           <img
-            src="/myPortofolio/images/KawaiiFiona.webp"
-            className="w-3/4 p-1/4 z-[2] rounded-full bg-[var(--bg-fiona)] animate-profileanimation"
+            src="/myPortofolio/images/Yuki.png"
+            className="w-3/4 p-1/4 z-[2] rounded-full bg-[var(--bg-yuki)] animate-profileanimation"
           />
         </div>
         <div className="flex text-[var(--lavender-blush)] lg:text-[30px] text-[25px] justify-end items-center h-full lg:w-1/2 w-full animate-textanimation">
@@ -83,7 +83,7 @@ export default function Home(): React.ReactElement {
 
         <div className="hidden lg:flex relative justify-center items-center w-1/2">
           <img
-            src="/myPortofolio/images/KawaiiFiona.webp"
+            src="/myPortofolio/images/Yuki.png"
             className="w-3/4 p-1/4 z-[2] rounded-full bg-[var(--bg-fiona)]"
           />
         </div>
